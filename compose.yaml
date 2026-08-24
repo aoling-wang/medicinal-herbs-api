@@ -1,4 +1,18 @@
 services:
+  api:
+    build: .
+    container_name: nest-postgres-api
+
+    ports:
+      - "3000:3000"
+
+    env_file:
+      - .env
+
+    depends_on:
+      db:
+        condition: service_healthy
+        
   db:
     image: postgres:18
     container_name: nest-postgres-db
