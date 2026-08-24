@@ -1,7 +1,7 @@
 services:
   api:
     build: .
-    container_name: nest-postgres-api
+    container_name: medicinal-herbs-api
 
     ports:
       - "3000:3000"
@@ -15,7 +15,7 @@ services:
         
   db:
     image: postgres:18
-    container_name: nest-postgres-db
+    container_name: medicinal-herbs-db
 
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
