@@ -23,7 +23,7 @@ export class Herb {
     @Column( "simple-array" )
     preparationMethods!: string[];
 
-    @Column( "simple-array" )
+    @Column( "simple-json" )
     interactions!: {
         compound: string;
         effect: string;
