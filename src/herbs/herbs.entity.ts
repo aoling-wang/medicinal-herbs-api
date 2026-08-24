@@ -8,27 +8,27 @@ export class Herb {
     @Column({ unique: true })
     name!: string;
 
-    @Column()
+    @Column( "simple-array" )
     activeCompounds!: string[];
 
-    @Column()
+    @Column( "simple-array" )
     medicinalUses!: string[];
 
-    @Column()
+    @Column( "simple-array" )
     targetSystem!: string[];
 
-    @Column()
+    @Column( "simple-array" )
     useableParts!: string[];
 
-    @Column()
+    @Column( "simple-array" )
     preparationMethods!: string[];
 
-    @Column()
+    @Column( "simple-array" )
     interactions!: {
         compound: string;
         effect: string;
     }[];
 
-    @Column()
+    @Column( "simple-array" )
     contraindications!: string[];
 }
