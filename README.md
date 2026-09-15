@@ -1,5 +1,11 @@
 # Nature's Medicine API
 
+### A containerized NestJS REST API with a PostGreSQL database linked by Docker Compose
+
+> **Portfolio Project · JavaScript/TypeScript · NodeJS · Jest · NestJS · PostGreSQL · Docker Compose · CI/CD**
+
+---
+
 **Herbs, Herbs, and More Herbs!**
 
 A NestJS proof-of-concept API exploring how traditional herbal medicine knowledge can be organized into a **structured, searchable, and extensible database**. The project focuses on traditional medicine systems from around the world, including **Traditional Chinese Medicine (TCM), Ayurvedic medicine, and Unani Tibb**.
@@ -12,7 +18,7 @@ A NestJS proof-of-concept API exploring how traditional herbal medicine knowledg
 
 ## Overview
 
-Modern healthcare can sometimes leave patients with limited options due to cost, accessibility, or treatment constraints. This project explores how software could make traditional herbal knowledge easier to organize and access while maintaining a clear separation between **information and medical decision-making**.
+Modern healthcare can sometimes leave patients with limited options due to cost, accessibility, or treatment constraints. This project explores shows how software could make traditional herbal knowledge easier to organize and access while maintaining a clear separation between **information and medical decision-making**. It solves the issue of lack of accessibility and structure that has made these fields and knowledge seem out of reach for beginners and the general populace. If expanded on and combined with front-end applications, it could also provided medical practitioners and healthcare students with a centralized resource for medicinal consumables to help learn and guide patients properly and confidently.  
 
 Built with **NestJS, TypeORM, PostgreSQL, and Docker Compose**, the API uses structured entities, interfaces, and relational tables to create a foundation for a larger herbal medicine knowledge platform.
 
