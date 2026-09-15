@@ -1,71 +1,94 @@
 # Nature's Medicine API
 
-Herbs, Herbs, and more Herbs! As modern medicine becomes increasingly inaccessible, this API was built as a proof of concept for a comprehensive database of traditional herbal medicine from around the world (e.g. TCM, Ayurvedic medicine, Unani Tibb).
+**Herbs, Herbs, and More Herbs!**
 
-Disclaimer: this is meant to supplement and NOT replace science and western medicine.
+A NestJS proof-of-concept API exploring how traditional herbal medicine knowledge can be organized into a **structured, searchable, and extensible database**. The project focuses on traditional medicine systems from around the world, including **Traditional Chinese Medicine (TCM), Ayurvedic medicine, and Unani Tibb**.
 
-**
+<p align="center">
+  <img width="485" height="300" alt="API GET Request Test with Bruno" src="https://github.com/user-attachments/assets/9579c1a6-5bbe-4f52-9cf1-74504310b0a6" />
+</p>
 
-Visual Demo
+> **Disclaimer:** This project is for educational and informational purposes only. It is intended to supplement—not replace—professional medical advice, evidence-based treatment, or consultation with a qualified healthcare provider.
 
-**
+## Overview
 
-Based in NestJS, this proof of concept API uses strict typing, organized architecture, and Docker Compose to create a user-friendly database to store the traditional knowledge and simplify access to that knowledge. In order to maintain the integrity of the data, this codebase uses interfaces and entities to create and manage relational tables with the containerized Docker database and volume through a combination of TypeORM Repositories and PostGreSQL. In combination with community collaborations and UX design, this API could aid providers find natural alternatives to various maintainence medications and give patients more options and autonomy over their health.
+Modern healthcare can sometimes leave patients with limited options due to cost, accessibility, or treatment constraints. This project explores how software could make traditional herbal knowledge easier to organize and access while maintaining a clear separation between **information and medical decision-making**.
 
-As a former medical provider, I have come to understand that modern science still has a long way to go and that there are still many case in which traditional medicine far surpasses modern medicine. 
+Built with **NestJS, TypeORM, PostgreSQL, and Docker Compose**, the API uses structured entities, interfaces, and relational tables to create a foundation for a larger herbal medicine knowledge platform.
 
-For a live demo, click here!
+The project also explores how thoughtful **UX design, community collaboration, and structured data** could make complex traditional knowledge more approachable for developers, researchers, healthcare professionals, and patients.
+
+### Key Design Idea
+
+> **Create a developer-friendly API that makes complex traditional medicine knowledge structured, searchable, and extensible.**
+
+The current implementation serves as a foundation that could eventually support additional data sources, contributors, integrations, and user-facing applications.
 
 ## The Stack
 
-Language: Javascript/Typescript
-Package Manager: npm
-Framework: NestJS
-Server Runtime: NodeJS
-ORM: TypeORM
-Database: PostGreSQL
-Containerization: Docker
+| Technology         | Purpose                                |
+| ------------------ | -------------------------------------- |
+| **TypeScript**     | Application language and strict typing |
+| **Node.js**        | Server runtime                         |
+| **NestJS**         | Backend framework                      |
+| **TypeORM**        | Object-relational mapping              |
+| **PostgreSQL**     | Relational database                    |
+| **Docker Compose** | Database and development environment   |
+| **npm**            | Package management                     |
 
-## What This Build Has Taught Me
+## What I Practiced
 
-Making code that is both user and developer-friendly 
-Benefits of organized architecture with entities for relational tables
-ORM vs crude SQL query
-Commenting best practices for readability
+* **API development** — designing a structured backend for a domain-specific application
+* **Strict typing** — using TypeScript interfaces and types to improve reliability
+* **Organized architecture** — separating application responsibilities into maintainable components
+* **Relational database design** — modeling herbal information through database entities and relationships
+* **ORM development** — using TypeORM repositories instead of manually writing SQL queries
+* **Docker development** — containerizing PostgreSQL and managing persistent database storage
+* **Developer experience** — writing code and documentation with maintainability and readability in mind
+* **Code documentation** — using comments strategically to clarify complex logic without over-documenting simple code
 
-## Project setup
+## Project Setup
+
+### 1. Install Dependencies
 
 ```bash
-$ npm install
+npm install
 ```
 
-## Compile and run the project
+### 2. Start the Application
+
+#### Development
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm run start
 ```
 
-## Run tests
+#### Watch Mode
 
 ```bash
-# unit tests
-$ npm run test
+npm run start:dev
+```
 
-# e2e tests
-$ npm run test:e2e
+### 3. Run Tests
 
-# test coverage
-$ npm run test:cov
+```bash
+npm run test
 ```
 
 ## Next Steps
 
-Collaborations with gardening apps for growth integrations
-Collaborations with LLMs and herbalists to add personalized instructions for brewing and herb processing.
+### Farming & Gardening Integrations
+
+Explore integrations with gardening and plant-care applications to connect herbal knowledge with **plant cultivation, growing conditions, and harvesting information**.
+
+### LLM & Herbalist Collaboration
+
+Explore collaboration with herbalists and language models to provide educational information about **herb preparation, brewing methods, processing, and traditional uses**, while maintaining appropriate safety boundaries.
+
+### Community Knowledge
+
+Develop a contribution system that allows qualified practitioners, researchers, and community members to expand and improve the database while maintaining **data provenance and quality controls**.
+
+---
+
+**Project Goal:** Explore how modern backend architecture can make traditional knowledge **more accessible, structured, and usable** while respecting the distinction between cultural knowledge, educational information, and evidence-based medical practice.
