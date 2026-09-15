@@ -5,7 +5,7 @@
 A NestJS proof-of-concept API exploring how traditional herbal medicine knowledge can be organized into a **structured, searchable, and extensible database**. The project focuses on traditional medicine systems from around the world, including **Traditional Chinese Medicine (TCM), Ayurvedic medicine, and Unani Tibb**.
 
 <p align="center">
-  <img width="891" height="623" alt="API GET request test using Bruno" src="https://github.com/user-attachments/assets/2839e04f-1cb1-468f-aaab-7f33192b7c33" />
+  <img width="572" height="400" alt="API GET request test using Bruno" src="https://github.com/user-attachments/assets/2839e04f-1cb1-468f-aaab-7f33192b7c33" />
 </p>
 
 > **Disclaimer:** This project is for educational and informational purposes only. It is intended to supplement—not replace—professional medical advice, evidence-based treatment, or consultation with a qualified healthcare provider.
