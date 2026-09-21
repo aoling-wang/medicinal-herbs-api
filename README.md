@@ -55,30 +55,24 @@ The current implementation serves as a foundation that could eventually support 
 
 ## Project Setup
 
+Ensure that you have npm up-to-date and Docker installed, logged in, and running
+
 ### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start the Application
-
-#### Development
-
-```bash
-npm run start
-```
-
-#### Watch Mode
-
-```bash
-npm run start:dev
-```
-
-### 3. Run Tests
+### 2. Run Tests
 
 ```bash
 npm run test
+```
+
+### 3. Start the Application (Docker Compose)
+
+```bash
+docker compose up
 ```
 
 ## Next Steps
