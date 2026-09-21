@@ -1,18 +1,24 @@
 # Nature's Medicine API
 
+### A containerized NestJS REST API with a PostGreSQL database linked by Docker Compose
+
+> **Portfolio Project · JavaScript/TypeScript · NodeJS · Jest · NestJS · PostGreSQL · Docker Compose · CI/CD**
+
+---
+
 **Herbs, Herbs, and More Herbs!**
 
 A NestJS proof-of-concept API exploring how traditional herbal medicine knowledge can be organized into a **structured, searchable, and extensible database**. The project focuses on traditional medicine systems from around the world, including **Traditional Chinese Medicine (TCM), Ayurvedic medicine, and Unani Tibb**.
 
 <p align="center">
-  <img width="485" height="300" alt="API GET Request Test with Bruno" src="https://github.com/user-attachments/assets/9579c1a6-5bbe-4f52-9cf1-74504310b0a6" />
+  <img width="572" height="400" alt="API GET request test using Bruno" src="https://github.com/user-attachments/assets/2839e04f-1cb1-468f-aaab-7f33192b7c33" />
 </p>
 
 > **Disclaimer:** This project is for educational and informational purposes only. It is intended to supplement—not replace—professional medical advice, evidence-based treatment, or consultation with a qualified healthcare provider.
 
 ## Overview
 
-Modern healthcare can sometimes leave patients with limited options due to cost, accessibility, or treatment constraints. This project explores how software could make traditional herbal knowledge easier to organize and access while maintaining a clear separation between **information and medical decision-making**.
+Modern healthcare can sometimes leave patients with limited options due to cost, accessibility, or treatment constraints. This project explores shows how software could make traditional herbal knowledge easier to organize and access while maintaining a clear separation between **information and medical decision-making**. It solves the issue of lack of accessibility and structure that has made these fields and knowledge seem out of reach for beginners and the general populace. If expanded on and combined with front-end applications, it could also provided medical practitioners and healthcare students with a centralized resource for medicinal consumables to help learn and guide patients properly and confidently.  
 
 Built with **NestJS, TypeORM, PostgreSQL, and Docker Compose**, the API uses structured entities, interfaces, and relational tables to create a foundation for a larger herbal medicine knowledge platform.
 
@@ -36,7 +42,7 @@ The current implementation serves as a foundation that could eventually support 
 | **Docker Compose** | Database and development environment   |
 | **npm**            | Package management                     |
 
-## What I Practiced
+## What I Learned
 
 * **API development** — designing a structured backend for a domain-specific application
 * **Strict typing** — using TypeScript interfaces and types to improve reliability
@@ -49,30 +55,50 @@ The current implementation serves as a foundation that could eventually support 
 
 ## Project Setup
 
+Ensure that you have npm up-to-date and Docker installed, logged in, and running
+
 ### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start the Application
-
-#### Development
-
-```bash
-npm run start
-```
-
-#### Watch Mode
-
-```bash
-npm run start:dev
-```
-
-### 3. Run Tests
+### 2. Run Tests
 
 ```bash
 npm run test
+```
+
+### 3. Start the Application (Docker Compose)
+
+```bash
+docker compose up
+```
+
+### 3. Demo 
+
+Populate the database/Docker volume, using a POST request, with the JSON data within the herbs-data file within the root directory before using any GET requests. Not doing so will result in a GET 200 (successful) response with an empty array during testing. 
+
+### 3. Clean up
+
+#### App Shutdown
+
+```bash
+docker compose down
+```
+
+#### Container Deletion
+
+```bash
+docker container ls
+docker container rm <APP_CONTAINER_ID_OR_NAME> <DB_CONTAINER_ID_OR_NAME>
+```
+
+#### Volume Deletion
+
+```bash
+docker volume ls
+docker volume rm <VOLUME_NAME>
 ```
 
 ## Next Steps
