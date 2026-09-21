@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 1,
+    "name": "Mugwort",
+    "activeCompounds": [
+      "Thujone",
+      "Cineole",
+      "Camphor",
+      "Linalool",
+      "Flavonoids",
+      "Coumarins",
+      "Sesquiterpene lactones"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Traditional menstrual-cramp support",
+      "Traditional appetite support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Reproductive System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Stems",
+      "Flowers",
+      "Roots"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Tincture",
+      "Moxibustion",
+      "Topical preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Thujone",
+        "effect": "High exposure may affect the nervous system and may increase seizure risk; avoid concentrated preparations with seizure disorders."
+      },
+      {
+        "compound": "Mugwort constituents",
+        "effect": "Potential additive effects with sedating medicines are possible, although clinical interaction data are limited."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy; medicinal doses should be avoided because safety is not established and uterine effects are a concern",
+      "Asteraceae family allergy",
+      "Seizure disorders, especially with concentrated preparations"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ginger",
+    "activeCompounds": [
+      "Gingerols",
+      "Shogaols",
+      "Zingerone",
+      "Paradols"
+    ],
+    "medicinalUses": [
+      "Nausea and vomiting relief",
+      "Digestive symptom support",
+      "Menstrual pain relief",
+      "Osteoarthritis symptom support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Reproductive System",
+      "Musculoskeletal System"
+    ],
+    "useableParts": [
+      "Rhizome"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Powder",
+      "Capsules",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Gingerols and related constituents",
+        "effect": "May have antiplatelet effects and could increase bleeding risk with anticoagulants or antiplatelet drugs, particularly at high supplemental doses."
+      }
+    ],
+    "contraindications": [
+      "Gallstone disease or biliary obstruction; medicinal doses may stimulate bile flow",
+      "Known allergy to ginger",
+      "Use caution with bleeding disorders or medicines affecting clotting"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Turmeric",
+    "activeCompounds": [
+      "Curcumin",
+      "Demethoxycurcumin",
+      "Bisdemethoxycurcumin",
+      "Volatile oils including turmerone"
+    ],
+    "medicinalUses": [
+      "Osteoarthritis symptom support",
+      "Digestive support",
+      "Traditional inflammatory-condition support"
+    ],
+    "targetSystem": [
+      "Musculoskeletal System",
+      "Digestive System",
+      "Immune System"
+    ],
+    "useableParts": [
+      "Rhizome"
+    ],
+    "preparationMethods": [
+      "Powder",
+      "Capsules",
+      "Extract",
+      "Infusion"
+    ],
+    "interactions": [
+      {
+        "compound": "Curcuminoids",
+        "effect": "May increase bleeding tendency when combined with anticoagulant or antiplatelet medicines; clinical significance varies by preparation."
+      },
+      {
+        "compound": "Curcumin-enhanced formulations",
+        "effect": "Some highly bioavailable formulations have been associated with liver injury."
+      }
+    ],
+    "contraindications": [
+      "Biliary obstruction or gallbladder disease",
+      "Pregnancy when used in medicinal/supplemental amounts",
+      "Previous liver injury associated with turmeric or curcumin supplements"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Peppermint",
+    "activeCompounds": [
+      "Menthol",
+      "Menthone",
+      "Menthofuran",
+      "Rosmarinic acid"
+    ],
+    "medicinalUses": [
+      "Indigestion symptom relief",
+      "Abdominal cramp support",
+      "Tension-headache topical support",
+      "Irritable bowel syndrome symptom support with enteric-coated peppermint oil"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Essential oil"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Enteric-coated capsules",
+      "Topical diluted oil"
+    ],
+    "interactions": [
+      {
+        "compound": "Peppermint oil",
+        "effect": "May worsen reflux and can interact with medicines metabolized through drug-metabolizing pathways; clinically important interactions are not well established."
+      }
+    ],
+    "contraindications": [
+      "Gastroesophageal reflux disease if peppermint worsens symptoms",
+      "Gallbladder obstruction or significant biliary disease",
+      "Avoid undiluted essential oil ingestion"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chamomile",
+    "activeCompounds": [
+      "Apigenin",
+      "Bisabolol",
+      "Chamazulene",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Mild digestive discomfort support",
+      "Traditional relaxation support",
+      "Topical skin-soothing use"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Nervous System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Flower heads"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Liquid extract",
+      "Topical preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Coumarin-like constituents",
+        "effect": "May theoretically increase bleeding risk with warfarin and other anticoagulants; evidence is limited."
+      },
+      {
+        "compound": "Apigenin and other sedating constituents",
+        "effect": "May add to sedative effects of alcohol or sedating medicines."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy, including ragweed sensitivity",
+      "Use caution with anticoagulants",
+      "Pregnancy and lactation: medicinal-dose safety is not well established"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Echinacea",
+    "activeCompounds": [
+      "Alkamides",
+      "Caffeic acid derivatives",
+      "Polysaccharides",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Short-term support during common-cold symptoms",
+      "Immune-system support"
+    ],
+    "targetSystem": [
+      "Immune System",
+      "Respiratory System"
+    ],
+    "useableParts": [
+      "Roots",
+      "Leaves",
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Tincture",
+      "Capsules",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Echinacea constituents",
+        "effect": "May affect drug-metabolizing enzymes, although clinically important interactions appear uncommon; caution is appropriate with medicines with narrow therapeutic ranges."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy",
+      "Autoimmune disorders or immunosuppressive therapy: discuss use with a clinician",
+      "Children or pregnancy: product-specific safety should be reviewed"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ginkgo",
+    "activeCompounds": [
+      "Ginkgolides",
+      "Bilobalide",
+      "Flavone glycosides"
+    ],
+    "medicinalUses": [
+      "Research-supported use for some dementia symptoms",
+      "Traditional cognitive and circulatory support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Circulatory System"
+    ],
+    "useableParts": [
+      "Standardized leaf extract"
+    ],
+    "preparationMethods": [
+      "Standardized extract",
+      "Tablets/Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Ginkgolides and related constituents",
+        "effect": "May increase bleeding risk with warfarin and other anticoagulants or antiplatelet drugs."
+      },
+      {
+        "compound": "Ginkgo constituents",
+        "effect": "May interact with some medicines, including certain anticonvulsants; clinical review is recommended."
+      }
+    ],
+    "contraindications": [
+      "Fresh or raw ginkgo seeds because they can be toxic",
+      "Bleeding disorders or concurrent anticoagulant/antiplatelet therapy without medical guidance",
+      "Pregnancy, particularly near delivery"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "St. John's Wort",
+    "activeCompounds": [
+      "Hyperforin",
+      "Hypericin",
+      "Flavonoids",
+      "Phenolic acids"
+    ],
+    "medicinalUses": [
+      "Mild-to-moderate depressive symptoms in some standardized preparations",
+      "Traditional topical use for minor skin conditions"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Flowering tops"
+    ],
+    "preparationMethods": [
+      "Standardized extract",
+      "Tea",
+      "Topical oil"
+    ],
+    "interactions": [
+      {
+        "compound": "Hyperforin",
+        "effect": "Strongly induces CYP3A4, P-glycoprotein and other drug-metabolizing pathways, reducing concentrations and effectiveness of many medicines, including some contraceptives, transplant medicines and anticoagulants."
+      },
+      {
+        "compound": "Hypericin/hyperforin",
+        "effect": "Combining with serotonergic medicines can increase the risk of serious serotonin-related adverse effects."
+      }
+    ],
+    "contraindications": [
+      "Concurrent use with many prescription medicines without professional review",
+      "Pregnancy or breastfeeding unless specifically advised by a clinician",
+      "Bipolar disorder because it may contribute to mood elevation",
+      "Photosensitivity with high-dose use"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Valerian",
+    "activeCompounds": [
+      "Valerenic acid",
+      "Valerenol",
+      "Iridoids (valepotriates)"
+    ],
+    "medicinalUses": [
+      "Short-term sleep-support use",
+      "Traditional nervous-tension support"
+    ],
+    "targetSystem": [
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Root",
+      "Rhizome"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Capsules",
+      "Extract",
+      "Tincture"
+    ],
+    "interactions": [
+      {
+        "compound": "Valerenic acids and related constituents",
+        "effect": "May have additive sedative effects with alcohol, benzodiazepines, sleep medicines and other central nervous system depressants."
+      }
+    ],
+    "contraindications": [
+      "Concurrent use with sedatives without medical guidance",
+      "Pregnancy or breastfeeding because safety is insufficiently established",
+      "Liver disease or unexplained liver abnormalities; discuss use with a clinician"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ashwagandha",
+    "activeCompounds": [
+      "Withanolides",
+      "Alkaloids",
+      "Sitoindosides"
+    ],
+    "medicinalUses": [
+      "Stress symptom support",
+      "Sleep support",
+      "Traditional vitality support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Endocrine System"
+    ],
+    "useableParts": [
+      "Root",
+      "Leaves"
+    ],
+    "preparationMethods": [
+      "Powder",
+      "Capsules",
+      "Extract",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Withanolides",
+        "effect": "May have additive sedative effects with CNS depressants and may affect thyroid function."
+      },
+      {
+        "compound": "Ashwagandha constituents",
+        "effect": "May interact with immunosuppressive, diabetes or blood-pressure medicines; clinical data are limited."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Autoimmune disorders or use of immunosuppressants without medical guidance",
+      "Thyroid disorders without clinician guidance",
+      "Liver disease or prior supplement-associated liver injury"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Asian Ginseng",
+    "activeCompounds": [
+      "Ginsenosides",
+      "Polysaccharides",
+      "Peptides",
+      "Polyacetylenes"
+    ],
+    "medicinalUses": [
+      "Fatigue support",
+      "Traditional cognitive and physical-performance support",
+      "Blood-glucose support in some studies"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Endocrine System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Root"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Powder",
+      "Capsules",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Ginsenosides",
+        "effect": "May affect blood glucose and could enhance the effects of diabetes medicines."
+      },
+      {
+        "compound": "Ginsenosides",
+        "effect": "Potential interactions with warfarin and some blood-pressure medicines have been reported; clinical evidence is mixed."
+      }
+    ],
+    "contraindications": [
+      "Uncontrolled diabetes without monitoring",
+      "Pregnancy or breastfeeding due to insufficient safety evidence",
+      "Insomnia or sensitivity to stimulatory effects"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Licorice Root",
+    "activeCompounds": [
+      "Glycyrrhizin",
+      "Liquiritin",
+      "Glabridin",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Traditional digestive-soothing use",
+      "Traditional cough support",
+      "Traditional sore-throat support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Respiratory System"
+    ],
+    "useableParts": [
+      "Root",
+      "Rhizome"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Extract",
+      "Tincture",
+      "Deglycyrrhizinated preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Glycyrrhizin",
+        "effect": "Can cause sodium retention and potassium loss, potentially worsening effects of diuretics, digoxin and some blood-pressure medicines."
+      },
+      {
+        "compound": "Glycyrrhizin",
+        "effect": "May raise blood pressure and lower potassium when consumed in significant amounts or for prolonged periods."
+      }
+    ],
+    "contraindications": [
+      "Hypertension",
+      "Heart failure",
+      "Kidney disease",
+      "Low potassium",
+      "Pregnancy",
+      "Use of digoxin or potassium-wasting diuretics"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Cinnamon",
+    "activeCompounds": [
+      "Cinnamaldehyde",
+      "Cinnamic acid",
+      "Procyanidins",
+      "Coumarin"
+    ],
+    "medicinalUses": [
+      "Digestive support",
+      "Traditional blood-glucose support",
+      "Flavoring and warming digestive preparations"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Bark"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Powder",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Coumarin in cassia cinnamon",
+        "effect": "High supplemental exposure may contribute to liver injury and may increase bleeding concerns with anticoagulants."
+      },
+      {
+        "compound": "Cinnamon constituents",
+        "effect": "May modestly lower blood glucose and could add to diabetes-treatment effects."
+      }
+    ],
+    "contraindications": [
+      "Liver disease with high-dose cassia cinnamon supplementation",
+      "Known cinnamon allergy",
+      "Pregnancy: avoid medicinal/high-dose use unless advised"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Garlic",
+    "activeCompounds": [
+      "Allicin",
+      "Ajoene",
+      "Diallyl sulfides",
+      "S-allyl cysteine"
+    ],
+    "medicinalUses": [
+      "Cardiovascular risk-factor support",
+      "Traditional antimicrobial use",
+      "Blood-pressure support in some preparations"
+    ],
+    "targetSystem": [
+      "Cardiovascular System",
+      "Immune System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Bulb",
+      "Cloves"
+    ],
+    "preparationMethods": [
+      "Fresh food",
+      "Powder",
+      "Aged extract",
+      "Oil"
+    ],
+    "interactions": [
+      {
+        "compound": "Allicin and ajoene",
+        "effect": "May inhibit platelet aggregation and increase bleeding risk with anticoagulants or antiplatelet medicines."
+      },
+      {
+        "compound": "Garlic constituents",
+        "effect": "May modestly lower blood pressure and blood glucose, potentially adding to medication effects."
+      }
+    ],
+    "contraindications": [
+      "Bleeding disorders or upcoming surgery without clinician guidance",
+      "Known garlic allergy",
+      "Significant gastrointestinal intolerance"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Hawthorn",
+    "activeCompounds": [
+      "Flavonoids",
+      "Oligomeric procyanidins",
+      "Triterpenes"
+    ],
+    "medicinalUses": [
+      "Traditional cardiovascular support",
+      "Traditional digestive support"
+    ],
+    "targetSystem": [
+      "Cardiovascular System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowers",
+      "Berries"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Extract",
+      "Capsules",
+      "Tincture"
+    ],
+    "interactions": [
+      {
+        "compound": "Flavonoids and procyanidins",
+        "effect": "May add to the effects of medicines used for heart failure, angina or blood pressure; interaction data are incomplete."
+      }
+    ],
+    "contraindications": [
+      "Heart disease unless supervised by a clinician",
+      "Use with digoxin or other cardiac medicines without professional guidance",
+      "Pregnancy or breastfeeding due to insufficient evidence"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Milk Thistle",
+    "activeCompounds": [
+      "Silymarin",
+      "Silibinin",
+      "Silydianin",
+      "Flavonolignans"
+    ],
+    "medicinalUses": [
+      "Traditional liver-support use",
+      "Investigated for liver conditions"
+    ],
+    "targetSystem": [
+      "Hepatobiliary System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Fruit (seed)"
+    ],
+    "preparationMethods": [
+      "Standardized extract",
+      "Capsules",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Silymarin",
+        "effect": "May affect drug-metabolizing enzymes and transporters; clinically significant interactions are not well established."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy",
+      "Gallbladder or biliary disease without medical advice",
+      "Pregnancy or breastfeeding due to limited safety data"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Saw Palmetto",
+    "activeCompounds": [
+      "Fatty acids",
+      "Phytosterols",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Traditional urinary-tract symptom support in benign prostate enlargement",
+      "Traditional hair-loss support"
+    ],
+    "targetSystem": [
+      "Urinary System",
+      "Reproductive System"
+    ],
+    "useableParts": [
+      "Berries"
+    ],
+    "preparationMethods": [
+      "Lipid extract",
+      "Capsules",
+      "Softgels"
+    ],
+    "interactions": [
+      {
+        "compound": "Fatty acids and phytosterols",
+        "effect": "May have antiplatelet effects; caution with anticoagulants and antiplatelet drugs."
+      },
+      {
+        "compound": "Saw palmetto constituents",
+        "effect": "May have hormonal effects, although clinically meaningful endocrine interactions are uncertain."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy or breastfeeding",
+      "Hormone-sensitive conditions without clinician guidance",
+      "Bleeding disorders or anticoagulant therapy without professional review"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Cranberry",
+    "activeCompounds": [
+      "Proanthocyanidins",
+      "Anthocyanins",
+      "Organic acids"
+    ],
+    "medicinalUses": [
+      "Urinary-tract infection prevention support in some populations",
+      "Antioxidant dietary support"
+    ],
+    "targetSystem": [
+      "Urinary System"
+    ],
+    "useableParts": [
+      "Fruit",
+      "Fruit juice",
+      "Fruit extract"
+    ],
+    "preparationMethods": [
+      "Food",
+      "Unsweetened juice",
+      "Standardized extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Proanthocyanidins and other cranberry constituents",
+        "effect": "Large supplemental amounts have been reported to alter warfarin response in some people; monitoring may be appropriate."
+      }
+    ],
+    "contraindications": [
+      "Kidney-stone history involving calcium oxalate: large supplemental intake may be inappropriate",
+      "Diabetes: consider added sugars in juice products"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Green Tea",
+    "activeCompounds": [
+      "Epigallocatechin gallate (EGCG)",
+      "Epicatechin gallate",
+      "Caffeine",
+      "L-theanine"
+    ],
+    "medicinalUses": [
+      "Antioxidant dietary support",
+      "Alertness support from caffeine",
+      "Investigated cardiovascular and metabolic support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Cardiovascular System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Leaves"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Decaffeinated extract",
+      "Standardized extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Catechins",
+        "effect": "Concentrated green-tea extract can reduce blood levels of nadolol and may affect other medicines."
+      },
+      {
+        "compound": "Caffeine",
+        "effect": "Can add to stimulant effects and may increase heart rate, blood pressure, anxiety or insomnia in sensitive people."
+      }
+    ],
+    "contraindications": [
+      "Liver disease or use of concentrated extracts without medical guidance",
+      "Caffeine sensitivity",
+      "Iron-deficiency concerns when consuming large amounts with meals because tea polyphenols can reduce non-heme iron absorption"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Passionflower",
+    "activeCompounds": [
+      "Flavonoids",
+      "Chrysin",
+      "Vitexin",
+      "Harmala alkaloids in some species"
+    ],
+    "medicinalUses": [
+      "Traditional anxiety support",
+      "Sleep support"
+    ],
+    "targetSystem": [
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Aerial parts",
+      "Leaves",
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Extract",
+      "Tincture",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Flavonoids and other sedating constituents",
+        "effect": "May add to the effects of sedatives, sleep medicines and alcohol."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy because some preparations may stimulate uterine activity",
+      "Concurrent sedative use without medical guidance",
+      "Before surgery because of possible CNS effects"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Lavender",
+    "activeCompounds": [
+      "Linalool",
+      "Linalyl acetate",
+      "Terpinen-4-ol",
+      "Lavandulol"
+    ],
+    "medicinalUses": [
+      "Traditional relaxation support",
+      "Mild anxiety symptom support in some oral preparations",
+      "Topical aromatherapy for relaxation"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Flowers",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Aromatherapy",
+      "Diluted topical oil",
+      "Oral standardized preparation"
+    ],
+    "interactions": [
+      {
+        "compound": "Linalool and linalyl acetate",
+        "effect": "May have additive sedative effects with CNS depressants; clinical evidence is limited."
+      }
+    ],
+    "contraindications": [
+      "Undiluted essential-oil ingestion",
+      "Known lavender allergy",
+      "Pregnancy or breastfeeding: oral medicinal preparations require professional review"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Lemon Balm",
+    "activeCompounds": [
+      "Rosmarinic acid",
+      "Citral",
+      "Geraniol",
+      "Eugenol derivatives"
+    ],
+    "medicinalUses": [
+      "Mild anxiety and stress support",
+      "Sleep support",
+      "Digestive discomfort support",
+      "Topical support for herpes labialis has been studied"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Digestive System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Extract",
+      "Tincture",
+      "Topical cream"
+    ],
+    "interactions": [
+      {
+        "compound": "Sedating constituents",
+        "effect": "May add to sedative effects of alcohol or CNS-depressant medicines."
+      },
+      {
+        "compound": "Lemon balm constituents",
+        "effect": "May affect thyroid function in laboratory or preliminary research; clinical significance is uncertain."
+      }
+    ],
+    "contraindications": [
+      "Thyroid disease without medical guidance",
+      "Concurrent sedative use without professional review",
+      "Pregnancy or breastfeeding due to limited high-dose safety data"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Holy Basil",
+    "activeCompounds": [
+      "Eugenol",
+      "Rosmarinic acid",
+      "Ursolic acid",
+      "Ocimumosides"
+    ],
+    "medicinalUses": [
+      "Traditional stress-adaptation support",
+      "Traditional digestive support",
+      "Investigated blood-glucose support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Digestive System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Capsules",
+      "Extract",
+      "Tincture"
+    ],
+    "interactions": [
+      {
+        "compound": "Eugenol",
+        "effect": "May inhibit platelet aggregation and could increase bleeding risk with anticoagulant or antiplatelet medicines."
+      },
+      {
+        "compound": "Holy basil constituents",
+        "effect": "May lower blood glucose and could add to diabetes medicines."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy or breastfeeding due to insufficient safety evidence",
+      "Bleeding disorders or anticoagulant use without medical guidance",
+      "Diabetes treated with glucose-lowering medicines without monitoring"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Rhodiola",
+    "activeCompounds": [
+      "Rosavins",
+      "Salidroside",
+      "Tyrosol",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Fatigue and stress symptom support",
+      "Traditional physical-endurance support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Endocrine System"
+    ],
+    "useableParts": [
+      "Root",
+      "Rhizome"
+    ],
+    "preparationMethods": [
+      "Standardized extract",
+      "Capsules",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Rosavins and salidroside",
+        "effect": "Potential additive stimulant effects may occur with activating medicines; interaction evidence is limited."
+      },
+      {
+        "compound": "Rhodiola constituents",
+        "effect": "Use caution with antidepressants because of limited evidence regarding additive CNS effects."
+      }
+    ],
+    "contraindications": [
+      "Bipolar disorder without clinician guidance",
+      "Pregnancy or breastfeeding due to insufficient evidence",
+      "Sensitivity to stimulating effects"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Goldenseal",
+    "activeCompounds": [
+      "Berberine",
+      "Hydrastine",
+      "Canadine"
+    ],
+    "medicinalUses": [
+      "Traditional antimicrobial use",
+      "Traditional digestive support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Immune System"
+    ],
+    "useableParts": [
+      "Rhizome",
+      "Roots"
+    ],
+    "preparationMethods": [
+      "Extract",
+      "Capsules",
+      "Tincture"
+    ],
+    "interactions": [
+      {
+        "compound": "Berberine",
+        "effect": "Can inhibit drug-metabolizing enzymes and transporters and may alter concentrations of several medicines, including metformin."
+      },
+      {
+        "compound": "Berberine",
+        "effect": "May lower blood glucose and can add to diabetes-treatment effects."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding",
+      "Newborns and infants because berberine can be harmful",
+      "Liver disease without medical guidance",
+      "Use with multiple prescription medicines without interaction review"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Berberine-containing Barberry",
+    "activeCompounds": [
+      "Berberine",
+      "Berbamine",
+      "Palmatine"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Investigated metabolic and glucose regulation support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Root bark",
+      "Stem bark",
+      "Fruit depending on species"
+    ],
+    "preparationMethods": [
+      "Extract",
+      "Tincture",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Berberine",
+        "effect": "Can affect drug-metabolizing enzymes and transporters and may alter concentrations of prescription medicines."
+      },
+      {
+        "compound": "Berberine",
+        "effect": "Can lower blood glucose and may add to diabetes medicines."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Breastfeeding",
+      "Newborns and young infants",
+      "Use with prescription medicines without professional interaction review"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Nettle",
+    "activeCompounds": [
+      "Chlorophylls",
+      "Carotenoids",
+      "Phenolic acids",
+      "Flavonoids",
+      "Minerals"
+    ],
+    "medicinalUses": [
+      "Traditional urinary-tract support",
+      "Traditional seasonal-allergy symptom support",
+      "Traditional joint-support use"
+    ],
+    "targetSystem": [
+      "Urinary System",
+      "Musculoskeletal System",
+      "Immune System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Roots"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Capsules",
+      "Extract",
+      "Food preparation"
+    ],
+    "interactions": [
+      {
+        "compound": "Nettle constituents",
+        "effect": "May have diuretic effects and could add to diuretics or blood-pressure medicines."
+      },
+      {
+        "compound": "Nettle constituents",
+        "effect": "May affect blood glucose or blood pressure; monitor when combined with corresponding medicines."
+      }
+    ],
+    "contraindications": [
+      "Kidney or heart disease with fluid-retention issues without medical supervision",
+      "Pregnancy for medicinal use due to limited safety evidence",
+      "Known allergy"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Dandelion",
+    "activeCompounds": [
+      "Taraxasterol",
+      "Sesquiterpene lactones",
+      "Inulin",
+      "Phenolic acids"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Traditional appetite support",
+      "Traditional diuretic use"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Urinary System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Roots",
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Roasted-root beverage",
+      "Extract",
+      "Food preparation"
+    ],
+    "interactions": [
+      {
+        "compound": "Sesquiterpene lactones",
+        "effect": "May cause allergic reactions in people sensitive to Asteraceae plants."
+      },
+      {
+        "compound": "Dandelion constituents",
+        "effect": "May have diuretic effects and could theoretically add to diuretics or affect lithium handling."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy",
+      "Bile-duct obstruction or gallbladder disease without medical advice",
+      "Kidney disease requiring fluid or electrolyte management"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Aloe Vera",
+    "activeCompounds": [
+      "Acemannan",
+      "Aloin",
+      "Aloe-emodin",
+      "Polysaccharides"
+    ],
+    "medicinalUses": [
+      "Topical support for minor skin irritation",
+      "Constipation relief from certain aloe latex preparations, where medically appropriate"
+    ],
+    "targetSystem": [
+      "Integumentary System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Leaf gel",
+      "Leaf latex"
+    ],
+    "preparationMethods": [
+      "Topical gel",
+      "Oral gel preparations",
+      "Dried latex"
+    ],
+    "interactions": [
+      {
+        "compound": "Aloin and other anthraquinones in latex",
+        "effect": "Can cause diarrhea and potassium loss, potentially worsening effects of digoxin and potassium-wasting diuretics."
+      },
+      {
+        "compound": "Aloe constituents",
+        "effect": "May lower blood glucose and could add to diabetes medicines."
+      }
+    ],
+    "contraindications": [
+      "Oral aloe latex in pregnancy",
+      "Inflammatory bowel disease or unexplained abdominal pain",
+      "Kidney disease or electrolyte abnormalities",
+      "Topical use on known aloe allergy"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Feverfew",
+    "activeCompounds": [
+      "Parthenolide",
+      "Sesquiterpene lactones",
+      "Flavonoids"
+    ],
+    "medicinalUses": [
+      "Migraine-prevention support in some studies",
+      "Traditional fever and digestive support"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Capsules",
+      "Extract",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Parthenolide",
+        "effect": "May inhibit platelet aggregation and could increase bleeding risk with anticoagulants or antiplatelet drugs."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Asteraceae family allergy",
+      "Bleeding disorders or upcoming surgery",
+      "Known sensitivity causing mouth ulcers or skin irritation"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Cayenne",
+    "activeCompounds": [
+      "Capsaicin",
+      "Dihydrocapsaicin",
+      "Carotenoids"
+    ],
+    "medicinalUses": [
+      "Topical neuropathic-pain symptom relief",
+      "Digestive-stimulant traditional use"
+    ],
+    "targetSystem": [
+      "Nervous System",
+      "Digestive System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Fruit"
+    ],
+    "preparationMethods": [
+      "Topical cream",
+      "Capsules",
+      "Food preparation",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Capsaicin",
+        "effect": "Topical use may increase local irritation; systemic interactions are less well characterized."
+      },
+      {
+        "compound": "Capsaicin",
+        "effect": "May affect platelet function at high exposure; caution with anticoagulants is reasonable."
+      }
+    ],
+    "contraindications": [
+      "Broken or irritated skin for topical preparations",
+      "Known chili-pepper allergy",
+      "Severe reflux or gastrointestinal irritation"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Rosemary",
+    "activeCompounds": [
+      "Rosmarinic acid",
+      "Carnosic acid",
+      "Carnosol",
+      "1,8-Cineole"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Aromatherapy for alertness and memory is under study",
+      "Antioxidant dietary support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowering tops"
+    ],
+    "preparationMethods": [
+      "Food preparation",
+      "Infusion",
+      "Diluted topical oil",
+      "Aromatherapy"
+    ],
+    "interactions": [
+      {
+        "compound": "Rosemary volatile constituents",
+        "effect": "Concentrated preparations may affect seizure threshold and should be used cautiously in people with seizure disorders."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy for medicinal/high-dose use",
+      "Seizure disorders with concentrated essential-oil preparations",
+      "Known rosemary allergy"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Sage",
+    "activeCompounds": [
+      "Thujone",
+      "Rosmarinic acid",
+      "Carnosic acid",
+      "1,8-Cineole"
+    ],
+    "medicinalUses": [
+      "Traditional sore-throat and mouth-rinse use",
+      "Digestive support",
+      "Investigated menopausal symptom support"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Digestive System",
+      "Reproductive System"
+    ],
+    "useableParts": [
+      "Leaves"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Gargle",
+      "Food preparation",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Thujone",
+        "effect": "High-dose or prolonged exposure may affect the nervous system and may increase seizure risk."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding for medicinal/high-dose preparations",
+      "Seizure disorders with concentrated preparations",
+      "Known sage allergy"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Thyme",
+    "activeCompounds": [
+      "Thymol",
+      "Carvacrol",
+      "Rosmarinic acid",
+      "Linalool"
+    ],
+    "medicinalUses": [
+      "Traditional cough support",
+      "Traditional digestive support",
+      "Antimicrobial topical use in traditional preparations"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Digestive System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowering tops"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Syrup",
+      "Food preparation",
+      "Diluted essential oil"
+    ],
+    "interactions": [
+      {
+        "compound": "Thymol and carvacrol",
+        "effect": "Concentrated preparations may irritate mucous membranes and skin; clinically important drug interactions are not well established."
+      }
+    ],
+    "contraindications": [
+      "Known thyme allergy",
+      "Pregnancy for concentrated medicinal preparations unless advised",
+      "Undiluted essential-oil ingestion"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Oregano",
+    "activeCompounds": [
+      "Carvacrol",
+      "Thymol",
+      "Rosmarinic acid",
+      "Terpenes"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Traditional antimicrobial use",
+      "Dietary antioxidant support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Immune System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowering tops"
+    ],
+    "preparationMethods": [
+      "Food preparation",
+      "Infusion",
+      "Diluted essential oil",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Carvacrol and thymol",
+        "effect": "Concentrated oil can irritate tissues; evidence for clinically important drug interactions is limited."
+      }
+    ],
+    "contraindications": [
+      "Known oregano allergy",
+      "Pregnancy for concentrated medicinal preparations unless advised",
+      "Undiluted essential-oil ingestion"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Marshmallow Root",
+    "activeCompounds": [
+      "Mucilage polysaccharides",
+      "Flavonoids",
+      "Phenolic acids"
+    ],
+    "medicinalUses": [
+      "Soothing support for irritated throat",
+      "Traditional cough support",
+      "Digestive mucosal-soothing use"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Digestive System"
+    ],
+    "useableParts": [
+      "Root",
+      "Leaves"
+    ],
+    "preparationMethods": [
+      "Cold infusion",
+      "Tea",
+      "Syrup",
+      "Extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Mucilage polysaccharides",
+        "effect": "May slow absorption of orally administered medicines if taken at the same time; separate doses as a precaution."
+      }
+    ],
+    "contraindications": [
+      "Difficulty swallowing",
+      "Use with oral medicines without spacing doses",
+      "Pregnancy or breastfeeding: insufficient medicinal-dose safety evidence"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Slippery Elm",
+    "activeCompounds": [
+      "Mucilage polysaccharides",
+      "Tannins",
+      "Phenolic compounds"
+    ],
+    "medicinalUses": [
+      "Soothing support for irritated throat",
+      "Traditional digestive mucosal support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Respiratory System"
+    ],
+    "useableParts": [
+      "Inner bark"
+    ],
+    "preparationMethods": [
+      "Powder mixed with water",
+      "Tea",
+      "Lozenge",
+      "Porridge-like preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Mucilage",
+        "effect": "May delay or reduce absorption of oral medicines when taken together; separate administration times."
+      }
+    ],
+    "contraindications": [
+      "Difficulty swallowing",
+      "Use with critical oral medicines without appropriate dose separation",
+      "Pregnancy or breastfeeding: limited safety data"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Yarrow",
+    "activeCompounds": [
+      "Achilleine",
+      "Flavonoids",
+      "Sesquiterpene lactones",
+      "Volatile oils"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Traditional topical wound-support use",
+      "Traditional menstrual symptom support"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Integumentary System",
+      "Reproductive System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowers",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Infusion",
+      "Topical wash",
+      "Tincture"
+    ],
+    "interactions": [
+      {
+        "compound": "Coumarin-like and other constituents",
+        "effect": "Potential additive bleeding effects are possible with anticoagulant or antiplatelet medicines, although clinical data are limited."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Asteraceae family allergy",
+      "Known sensitivity to yarrow",
+      "Bleeding disorders or anticoagulant use without medical guidance"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Calendula",
+    "activeCompounds": [
+      "Triterpenoid saponins",
+      "Flavonoids",
+      "Carotenoids",
+      "Triterpene alcohols"
+    ],
+    "medicinalUses": [
+      "Topical support for minor skin inflammation",
+      "Wound and irritation support in traditional topical preparations"
+    ],
+    "targetSystem": [
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Topical cream",
+      "Ointment",
+      "Infusion",
+      "Compress"
+    ],
+    "interactions": [
+      {
+        "compound": "Calendula flavonoids and triterpenes",
+        "effect": "Systemic drug interactions are not well established; allergy is the principal concern."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy",
+      "Do not apply to deep or infected wounds without medical care",
+      "Pregnancy or breastfeeding: avoid oral medicinal preparations unless advised"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Burdock",
+    "activeCompounds": [
+      "Inulin",
+      "Phenolic acids",
+      "Lignans",
+      "Sesquiterpene lactones"
+    ],
+    "medicinalUses": [
+      "Traditional digestive support",
+      "Traditional skin-support use",
+      "Dietary prebiotic support from inulin-containing root"
+    ],
+    "targetSystem": [
+      "Digestive System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Root",
+      "Leaves",
+      "Seeds"
+    ],
+    "preparationMethods": [
+      "Food preparation",
+      "Tea",
+      "Extract",
+      "Topical preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Inulin",
+        "effect": "Can increase intestinal gas or alter bowel habits, particularly at higher doses."
+      },
+      {
+        "compound": "Burdock constituents",
+        "effect": "Potential diuretic or glucose-lowering effects may add to corresponding medicines; evidence is limited."
+      }
+    ],
+    "contraindications": [
+      "Asteraceae family allergy",
+      "Pregnancy for concentrated medicinal preparations",
+      "Diabetes or diuretic therapy without monitoring"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Schisandra",
+    "activeCompounds": [
+      "Schisandrins",
+      "Schisantherins",
+      "Lignans",
+      "Volatile oils"
+    ],
+    "medicinalUses": [
+      "Traditional fatigue and vitality support",
+      "Traditional liver-support use",
+      "Investigated stress and cognitive support"
+    ],
+    "targetSystem": [
+      "Hepatobiliary System",
+      "Nervous System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Fruit"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Dried fruit",
+      "Extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Schisandra lignans",
+        "effect": "Can affect CYP enzymes and drug transporters, potentially changing concentrations of prescription medicines."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy or breastfeeding without professional guidance",
+      "Use with medicines with narrow therapeutic ranges without interaction review",
+      "Known allergy"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Astragalus",
+    "activeCompounds": [
+      "Astragalosides",
+      "Polysaccharides",
+      "Flavonoids",
+      "Saponins"
+    ],
+    "medicinalUses": [
+      "Traditional immune-support use",
+      "Traditional fatigue and vitality support"
+    ],
+    "targetSystem": [
+      "Immune System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Root"
+    ],
+    "preparationMethods": [
+      "Decoction",
+      "Tea",
+      "Extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Astragalus polysaccharides and saponins",
+        "effect": "May stimulate immune activity and could counteract immunosuppressive medicines."
+      },
+      {
+        "compound": "Astragalus constituents",
+        "effect": "May affect blood pressure or blood glucose; additive effects with corresponding medicines are possible."
+      }
+    ],
+    "contraindications": [
+      "Autoimmune disorders or immunosuppressive therapy without medical guidance",
+      "Pregnancy or breastfeeding due to limited safety evidence",
+      "Organ-transplant recipients without specialist guidance"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Reishi",
+    "activeCompounds": [
+      "Triterpenes (ganoderic acids)",
+      "Polysaccharides",
+      "Peptidoglycans"
+    ],
+    "medicinalUses": [
+      "Traditional immune-support use",
+      "Traditional fatigue-support use",
+      "Investigated cardiovascular and metabolic effects"
+    ],
+    "targetSystem": [
+      "Immune System",
+      "Cardiovascular System",
+      "Metabolic System"
+    ],
+    "useableParts": [
+      "Fruiting body",
+      "Mycelium"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Powder",
+      "Extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Triterpenes and polysaccharides",
+        "effect": "May increase bleeding risk with anticoagulant or antiplatelet drugs and may lower blood pressure or glucose."
+      }
+    ],
+    "contraindications": [
+      "Bleeding disorders or anticoagulant therapy without medical guidance",
+      "Low blood pressure or glucose-lowering therapy without monitoring",
+      "Pregnancy or breastfeeding due to limited safety data"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Cordyceps",
+    "activeCompounds": [
+      "Cordycepin",
+      "Adenosine",
+      "Polysaccharides",
+      "Sterols"
+    ],
+    "medicinalUses": [
+      "Traditional vitality and endurance support",
+      "Traditional respiratory-support use",
+      "Investigated exercise-performance effects"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Immune System",
+      "Musculoskeletal System"
+    ],
+    "useableParts": [
+      "Fruiting body",
+      "Mycelium"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Powder",
+      "Extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Cordyceps constituents",
+        "effect": "May affect blood glucose and platelet function; caution with diabetes medicines and anticoagulants or antiplatelet drugs."
+      }
+    ],
+    "contraindications": [
+      "Autoimmune disorders or immunosuppressive therapy without medical guidance",
+      "Bleeding disorders or anticoagulant therapy",
+      "Pregnancy or breastfeeding due to limited safety data"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Gotu Kola",
+    "activeCompounds": [
+      "Asiaticoside",
+      "Madecassoside",
+      "Asiatic acid",
+      "Madecassic acid"
+    ],
+    "medicinalUses": [
+      "Traditional wound and skin-support use",
+      "Investigated venous-circulation support",
+      "Traditional cognitive and anxiety support"
+    ],
+    "targetSystem": [
+      "Integumentary System",
+      "Circulatory System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Aerial parts"
+    ],
+    "preparationMethods": [
+      "Tea",
+      "Capsules",
+      "Extract",
+      "Topical preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Triterpenoid saponins",
+        "effect": "May cause additive sedation with CNS depressants; interaction evidence is limited."
+      },
+      {
+        "compound": "Gotu kola constituents",
+        "effect": "Rare liver injury has been reported; caution with other potentially hepatotoxic substances."
+      }
+    ],
+    "contraindications": [
+      "Liver disease or prior supplement-associated liver injury",
+      "Pregnancy or breastfeeding for concentrated extracts without medical advice",
+      "Concurrent sedative use without professional review"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Cat's Claw",
+    "activeCompounds": [
+      "Oxindole alkaloids",
+      "Proanthocyanidins",
+      "Triterpenes"
+    ],
+    "medicinalUses": [
+      "Traditional inflammatory-condition support",
+      "Traditional immune-support use"
+    ],
+    "targetSystem": [
+      "Immune System",
+      "Musculoskeletal System"
+    ],
+    "useableParts": [
+      "Bark",
+      "Root"
+    ],
+    "preparationMethods": [
+      "Decoction",
+      "Tea",
+      "Extract",
+      "Capsules"
+    ],
+    "interactions": [
+      {
+        "compound": "Oxindole alkaloids",
+        "effect": "May stimulate or modulate immune activity and could interfere with immunosuppressive medicines."
+      },
+      {
+        "compound": "Cat's claw constituents",
+        "effect": "May lower blood pressure and could add to antihypertensive medicines."
+      }
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Autoimmune disorders or immunosuppressive therapy without medical guidance",
+      "Low blood pressure or antihypertensive therapy without monitoring"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Kava",
+    "activeCompounds": [
+      "Kavalactones",
+      "Kavain",
+      "Dihydrokavain",
+      "Methysticin"
+    ],
+    "medicinalUses": [
+      "Short-term anxiety symptom support in some standardized preparations",
+      "Traditional relaxation use"
+    ],
+    "targetSystem": [
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Rhizome",
+      "Root"
+    ],
+    "preparationMethods": [
+      "Aqueous beverage",
+      "Standardized extract"
+    ],
+    "interactions": [
+      {
+        "compound": "Kavalactones",
+        "effect": "Can increase sedation with alcohol, benzodiazepines, opioids and other CNS depressants."
+      },
+      {
+        "compound": "Kavalactones",
+        "effect": "Kava has been associated with potentially severe liver injury, particularly with certain products or use patterns."
+      }
+    ],
+    "contraindications": [
+      "Liver disease",
+      "Concurrent alcohol or sedative use",
+      "Pregnancy or breastfeeding",
+      "Before surgery unless cleared by a clinician"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Black Cohosh",
+    "activeCompounds": [
+      "Triterpene glycosides",
+      "Cimicifugic acids",
+      "Phenolic compounds"
+    ],
+    "medicinalUses": [
+      "Menopausal symptom support, especially hot flashes, in some studies",
+      "Traditional gynecologic use"
+    ],
+    "targetSystem": [
+      "Reproductive System",
+      "Nervous System"
+    ],
+    "useableParts": [
+      "Rhizome",
+      "Roots"
+    ],
+    "preparationMethods": [
+      "Standardized extract",
+      "Capsules",
+      "Tablets",
+      "Tea"
+    ],
+    "interactions": [
+      {
+        "compound": "Black cohosh constituents",
+        "effect": "Clinically significant drug interactions are not well established, but possible effects on liver enzymes and hormones warrant caution."
+      },
+      {
+        "compound": "Black cohosh preparations",
+        "effect": "Rare cases of liver injury have been reported; stop use and seek medical evaluation for jaundice, dark urine or other liver symptoms."
+      }
+    ],
+    "contraindications": [
+      "Liver disease or previous unexplained liver injury",
+      "Pregnancy or breastfeeding unless specifically advised",
+      "Hormone-sensitive conditions should be discussed with a clinician"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Mullein",
+    "activeCompounds": [
+      "Mucilage",
+      "Iridoid glycosides",
+      "Flavonoids",
+      "Saponins"
+    ],
+    "medicinalUses": [
+      "Traditional cough and throat-soothing use",
+      "Traditional respiratory-support use",
+      "Topical ear preparations have traditional use"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Integumentary System"
+    ],
+    "useableParts": [
+      "Leaves",
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Infusion (Tea)",
+      "Syrup",
+      "Extract",
+      "Filtered topical preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Mullein constituents",
+        "effect": "Clinically important drug interactions are not well documented; evidence for safety and efficacy is limited."
+      }
+    ],
+    "contraindications": [
+      "Known allergy",
+      "Do not put unfiltered plant material or homemade preparations into the ear because hairs can irritate tissue",
+      "Pregnancy or breastfeeding: medicinal-dose safety is insufficiently established"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Elderberry",
+    "activeCompounds": [
+      "Anthocyanins",
+      "Flavonols",
+      "Phenolic acids",
+      "Lectins"
+    ],
+    "medicinalUses": [
+      "Short-term support for upper-respiratory symptoms in some studies",
+      "Traditional immune-support use"
+    ],
+    "targetSystem": [
+      "Respiratory System",
+      "Immune System"
+    ],
+    "useableParts": [
+      "Ripe berries",
+      "Flowers"
+    ],
+    "preparationMethods": [
+      "Cooked syrup",
+      "Extract",
+      "Tea from flowers",
+      "Food preparations"
+    ],
+    "interactions": [
+      {
+        "compound": "Elderberry constituents",
+        "effect": "Clinically important drug interactions are not well established; evidence is limited."
+      },
+      {
+        "compound": "Raw or unripe berry constituents",
+        "effect": "Can cause nausea, vomiting and diarrhea; cooking appropriately reduces cyanogenic compounds found in some raw plant material."
+      }
+    ],
+    "contraindications": [
+      "Do not consume raw or unripe berries, leaves, stems or bark",
+      "Pregnancy or breastfeeding: safety of medicinal preparations is insufficiently established",
+      "Known allergy to elder or related plants"
+    ]
+  }
+]
