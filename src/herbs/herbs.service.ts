@@ -18,6 +18,60 @@ export class HerbsService {
         return this.herbsRepository.findOneBy({ id: Number(id) });
     }
 
+    findByMedicinalUse(medicinalUse: string) {
+        return this.herbsRepository
+            .createQueryBuilder('herb')
+            .where('herb.medicinalUses LIKE :medicinalUse', { medicinalUse: `%${medicinalUse}%` })
+            .getMany();
+    }
+
+    findByTargetSystem(targetSystem: string) {
+        return this.herbsRepository
+            .createQueryBuilder('herb')
+            .where('herb.targetSystem LIKE :targetSystem', { targetSystem: `%${targetSystem}%` })
+            .getMany();
+    }
+
+    findByUseablePart(useablePart: string) {
+        return this.herbsRepository
+            .createQueryBuilder('herb')
+            .where('herb.useableParts LIKE :useablePart', { useablePart: `%${useablePart}%` })
+            .getMany();
+    }
+
+    findByPreparationMethod(preparationMethod: string) {
+        return this.herbsRepository
+            .createQueryBuilder('herb')
+            .where('herb.preparationMethods LIKE :preparationMethod', { preparationMethod: `%${preparationMethod}%` })
+            .getMany();
+    }
+
+    search({
+        name,
+        medicinalUse,
+        contraindication,
+    }: {
+        name?: string;
+        medicinalUse?: string;
+        contraindication?: string;
+    }) {
+        const query = this.herbsRepository.createQueryBuilder('herb');
+
+        if (name) {
+            query.andWhere('herb.name LIKE :name', { name: `%${name}%` });
+        }
+
+        if (medicinalUse) {
+            query.andWhere('herb.medicinalUses LIKE :medicinalUse', { medicinalUse: `%${medicinalUse}%` });
+        }
+
+        if (contraindication) {
+            query.andWhere('herb.contraindications LIKE :contraindication', { contraindication: `%${contraindication}%` });
+        }
+
+        return query.getMany();
+    }
+
     create({
         name, 
         activeCompounds, 
@@ -53,5 +107,18 @@ export class HerbsService {
 
     remove(id: string) {
         return this.herbsRepository.delete(id);
+    }
+
+    update(id: string, updatedData: {
+        name?: string; 
+        activeCompounds?: string[]; 
+        medicinalUses?: string[]; 
+        targetSystem?: string[]; 
+        useableParts?: string[]; 
+        preparationMethods?: string[]; 
+        interactions?: { compound: string; effect: string }[]; 
+        contraindications?: string[] 
+    }) {
+        return this.herbsRepository.update(id, updatedData);
     }
 }
