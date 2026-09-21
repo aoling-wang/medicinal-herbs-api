@@ -18,13 +18,6 @@ export class HerbsService {
         return this.herbsRepository.findOneBy({ id: Number(id) });
     }
 
-    findByMedicinalUse(medicinalUse: string) {
-        return this.herbsRepository
-            .createQueryBuilder('herb')
-            .where('herb.medicinalUses LIKE :medicinalUse', { medicinalUse: `%${medicinalUse}%` })
-            .getMany();
-    }
-
     findByTargetSystem(targetSystem: string) {
         return this.herbsRepository
             .createQueryBuilder('herb')
