@@ -75,6 +75,32 @@ npm run test
 docker compose up
 ```
 
+### 3. Demo 
+
+Populate the database/Docker volume, using a POST request, with the JSON data within the herbs-data file within the root directory before using any GET requests. Not doing so will result in a GET 200 (successful) response with an empty array during testing. 
+
+### 3. Clean up
+
+#### App Shutdown
+
+```bash
+docker compose down
+```
+
+#### Container Deletion
+
+```bash
+docker container ls
+docker container rm <APP_CONTAINER_ID_OR_NAME> <DB_CONTAINER_ID_OR_NAME>
+```
+
+#### Volume Deletion
+
+```bash
+docker volume ls
+docker volume rm <VOLUME_NAME>
+```
+
 ## Next Steps
 
 ### Farming & Gardening Integrations
